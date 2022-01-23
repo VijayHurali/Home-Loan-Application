@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeLoan</title>
+    <link rel="stylesheet" rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@200;300;400;500&family=Roboto+Condensed:wght@300;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./about.component.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header_top">
+        <img src="../../assets/images/logo1.png" alt="HOME LOAN">
+        <h1>HOME LOAN</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul class="nav_bar">
+            <li><a routerLink="">Home</a></li>
+            <li><a routerLink="about">About Us</a></li>
+       
+
+            <li><a href="javascript:;">Calculator</a>
+                <ul class="first-level-menu">
+                    <li><a routerLink="eligibilitycalculator">Eligibility Calculator</a></li>
+                    <li><a routerLink="../emicalculator">Emi Calculatior</a></li>
+                </ul>
+            </li>
+            <li><a routerLink="propertydetails">Application</a></li>
+            <li><a routerLink="../loantracker">Loan Tracker</a></li>
+
+            <li><a href="javascript:;">Login</a>
+                <ul class="first-level-login">
+                    <li><a routerLink="../login">Admin Login</a></li>
+                    <li><a routerLink="../ulogin">Customer Login</a></li>
+                </ul>
+            </li>
+            <li><a routerLink="faq">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <div class="follow text-center">
+        <div class="main wrapper">
+            <div class="container">
+                    <h1 class="text-center">About Us</h1>
+                    <p> Home Loan System is a leading provider of Housing Finance in India. With our customised
+                        solutions
+                        we have fulfilled over 8 million dreams since inception.</p>
+
+                <div>
+                    <h5>Our Experience</h5>
+                    <!-- <p> Pioneered Housing Finance in 1977.Cumulative housing unit financed :8.6 million.A model private Housing Finance Company for developing countries with nascent Housing
+                        Finance markets.Undertaken several consultancy assignments in housing finance in various countries
+                        across
+                        Asia, Africa and East Europe.Gross loans stood atRs.5.7 trillion.About 2.1 million Deposits Accounts.</p> -->
+                    <ul>
+                        <li> Pioneered Housing Finance in 1977.</li>
+                        <li> Cumulative housing unit financed :8.6 million.</li>
+                        <li>A model private Housing Finance Company for developing countries with nascent Housing
+                            Finance markets.</li>
+                        <li>Undertaken several consultancy assignments in housing finance in various countries
+                            across
+                            Asia, Africa and East Europe.</li>
+                        <li>Gross loans stood atRs.5.7 trillion.</li>
+                        <li>About 2.1 million Deposits Accounts.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Fotter -->
+    <footer class="foot-end">
+        <p @copyright elv><span>projects &copy;ltd 2021. all rights reserved</span> </p>
+        <p powered by><span>Powered by Capgemini</span> </p>
+    </footer>
+    <!--
+    <div class="follow text-center">
+        <h4>Follow Us</h4>
+        <a href="#">Facebook</a>
+        <a href="#">Youtube</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
+    -->
